@@ -116,7 +116,7 @@
         "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80"
       ],
       "description": "에너지와 집중력을 높이는 다이나믹한 피트니스 공간. 다크 톤의 세련된 인테리어와 최적의 동선 설계가 특징입니다.",
-      "featured": false
+      "featured": true
     },
     {
       "id": "project-005",
@@ -164,7 +164,7 @@
         "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80"
       ],
       "description": "브랜드 아이덴티티를 공간으로 표현한 쇼룸 디자인. 제품이 주인공이 되는 갤러리형 전시 공간입니다.",
-      "featured": false
+      "featured": true
     },
     {
       "id": "project-008",
