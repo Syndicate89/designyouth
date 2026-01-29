@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "DESIGN STUDIO",
+    "name": "디자인 청춘",
     "tagline": "공간에 가치를 더하다",
     "description": "건축과 인테리어, 공간의 본질을 탐구하는 디자인 스튜디오"
   },
@@ -12,14 +12,46 @@
     "instagram": "@design_studio_kr"
   },
   "categories": [
-    { "id": "all", "name": "ALL", "nameKr": "전체" },
-    { "id": "restaurant", "name": "RESTAURANT", "nameKr": "레스토랑" },
-    { "id": "cafe", "name": "CAFE", "nameKr": "카페" },
-    { "id": "office", "name": "OFFICE", "nameKr": "오피스" },
-    { "id": "hospital", "name": "HOSPITAL", "nameKr": "병원" },
-    { "id": "gym", "name": "GYM", "nameKr": "피트니스" },
-    { "id": "apt", "name": "APT", "nameKr": "주거공간" },
-    { "id": "showroom", "name": "SHOWROOM", "nameKr": "쇼룸" }
+    {
+      "id": "all",
+      "name": "ALL",
+      "nameKr": "전체"
+    },
+    {
+      "id": "restaurant",
+      "name": "RESTAURANT",
+      "nameKr": "레스토랑"
+    },
+    {
+      "id": "cafe",
+      "name": "CAFE",
+      "nameKr": "카페"
+    },
+    {
+      "id": "office",
+      "name": "OFFICE",
+      "nameKr": "오피스"
+    },
+    {
+      "id": "hospital",
+      "name": "HOSPITAL",
+      "nameKr": "병원"
+    },
+    {
+      "id": "gym",
+      "name": "GYM",
+      "nameKr": "피트니스"
+    },
+    {
+      "id": "apt",
+      "name": "APT",
+      "nameKr": "주거공간"
+    },
+    {
+      "id": "showroom",
+      "name": "SHOWROOM",
+      "nameKr": "쇼룸"
+    }
   ],
   "projects": [
     {
