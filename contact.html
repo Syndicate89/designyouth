@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DESIGN STUDIO에 프로젝트 문의 및 상담을 요청하세요. 전화, 이메일, 카카오톡으로 연락 가능합니다.">
+    <title>CONTACT | DESIGN STUDIO</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">DESIGN STUDIO</a>
+
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link">HOME</a>
+                <a href="projects.html" class="nav-link">PROJECTS</a>
+                <a href="projects.html?category=cafe" class="nav-link">CAFE</a>
+                <a href="projects.html?category=restaurant" class="nav-link">RESTAURANT</a>
+                <a href="contact.html" class="nav-link active">CONTACT</a>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <p class="text-caption text-english mb-4">GET IN TOUCH</p>
+                <h1 class="page-title">Contact</h1>
+                <p class="page-description">
+                    프로젝트에 대해 문의하시거나 상담을 원하시면 연락주세요
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div>
+                        <div class="contact-info-item">
+                            <p class="contact-info-label">Phone</p>
+                            <p class="contact-info-value">
+                                <a href="tel:02-1234-5678">02-1234-5678</a>
+                            </p>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <p class="contact-info-label">Email</p>
+                            <p class="contact-info-value">
+                                <a href="mailto:contact@designstudio.kr">contact@designstudio.kr</a>
+                            </p>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <p class="contact-info-label">Address</p>
+                            <p class="contact-info-value">
+                                서울특별시 강남구 테헤란로 123, 4층<br>
+                                <span class="text-muted">(지하철 2호선 강남역 3번 출구)</span>
+                            </p>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <p class="contact-info-label">Business Hours</p>
+                            <p class="contact-info-value">
+                                월 - 금 09:00 ~ 18:00<br>
+                                <span class="text-muted">(주말 및 공휴일 휴무)</span>
+                            </p>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <p class="contact-info-label">KakaoTalk</p>
+                            <p class="contact-info-value">
+                                <a href="https://pf.kakao.com/_example" target="_blank" rel="noopener">
+                                    카카오톡 상담하기 →
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">이름 *</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="홍길동" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="form-label">연락처 *</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="010-1234-5678"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">이메일</label>
+                                <input type="email" id="email" name="email" class="form-input"
+                                    placeholder="example@email.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="projectType" class="form-label">프로젝트 유형</label>
+                                <select id="projectType" name="projectType" class="form-input">
+                                    <option value="">선택해주세요</option>
+                                    <option value="restaurant">레스토랑</option>
+                                    <option value="cafe">카페</option>
+                                    <option value="office">오피스</option>
+                                    <option value="hospital">병원</option>
+                                    <option value="gym">피트니스</option>
+                                    <option value="apt">주거공간</option>
+                                    <option value="showroom">쇼룸</option>
+                                    <option value="other">기타</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">문의 내용 *</label>
+                                <textarea id="message" name="message" class="form-textarea"
+                                    placeholder="프로젝트에 대해 간단히 설명해주세요. (위치, 면적, 예산, 일정 등)" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                                문의 보내기
+                            </button>
+
+                            <p class="text-small text-center mt-4">
+                                * 표시된 항목은 필수 입력 사항입니다
+                            </p>
+                        </form>
+
+                        <!-- Success Message -->
+                        <div id="successMessage" style="display: none;" class="text-center">
+                            <div style="font-size: 48px; margin-bottom: var(--space-4);">✓</div>
+                            <h3 class="heading-4 mb-4">문의가 접수되었습니다</h3>
+                            <p class="text-muted mb-6">
+                                확인 후 빠른 시일 내에 연락드리겠습니다.<br>
+                                감사합니다.
+                            </p>
+                            <a href="index.html" class="btn btn-outline">홈으로 돌아가기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section (Optional) -->
+        <section style="background-color: var(--color-surface);">
+            <div class="container" style="padding: 0;">
+                <div
+                    style="background-color: var(--color-border); height: 400px; display: flex; align-items: center; justify-content: center;">
+                    <div class="text-center">
+                        <p class="text-muted mb-4">지도 영역</p>
+                        <p class="text-small text-muted">
+                            (Google Maps 또는 Naver Map 임베드)<br>
+                            서울특별시 강남구 테헤란로 123
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">Contact</h3>
+                    <div class="footer-content">
+                        <p>02-1234-5678</p>
+                        <p>contact@designstudio.kr</p>
+                        <p style="margin-top: var(--space-4);">
+                            서울특별시 강남구 테헤란로 123, 4층
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Links</h3>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="projects.html" class="footer-link">Projects</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Follow Us</h3>
+                    <a href="#" class="footer-link">Instagram</a>
+                    <a href="#" class="footer-link">KakaoTalk</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 DESIGN STUDIO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

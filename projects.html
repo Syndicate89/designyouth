@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DESIGN STUDIO의 인테리어 디자인 프로젝트를 확인하세요. 레스토랑, 카페, 오피스, 병원, 주거공간 등 다양한 포트폴리오.">
+    <title>PROJECTS | DESIGN STUDIO</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">DESIGN STUDIO</a>
+
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link">HOME</a>
+                <a href="projects.html" class="nav-link active">PROJECTS</a>
+                <a href="projects.html?category=cafe" class="nav-link">CAFE</a>
+                <a href="projects.html?category=restaurant" class="nav-link">RESTAURANT</a>
+                <a href="contact.html" class="nav-link">CONTACT</a>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <p class="text-caption text-english mb-4">OUR WORK</p>
+                <h1 class="page-title">Projects</h1>
+                <p class="page-description">
+                    다양한 공간에서 펼쳐진 우리의 디자인 이야기를 만나보세요
+                </p>
+            </div>
+        </section>
+
+        <!-- Category Filter -->
+        <section class="container">
+            <div class="category-tabs" id="categoryTabs">
+                <!-- Categories will be loaded by JS -->
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="section">
+            <div class="container">
+                <div class="grid grid-3" id="projectsGrid">
+                    <!-- Projects will be loaded by JS -->
+                </div>
+
+                <!-- Empty State -->
+                <div id="emptyState" class="text-center mt-12" style="display: none;">
+                    <p class="text-large text-muted">해당 카테고리의 프로젝트가 없습니다.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">Contact</h3>
+                    <div class="footer-content">
+                        <p>02-1234-5678</p>
+                        <p>contact@designstudio.kr</p>
+                        <p style="margin-top: var(--space-4);">
+                            서울특별시 강남구 테헤란로 123, 4층
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Links</h3>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="projects.html" class="footer-link">Projects</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Follow Us</h3>
+                    <a href="#" class="footer-link">Instagram</a>
+                    <a href="#" class="footer-link">KakaoTalk</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 DESIGN STUDIO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+
+</html>

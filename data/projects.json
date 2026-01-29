@@ -1,0 +1,154 @@
+{
+  "site": {
+    "name": "DESIGN STUDIO",
+    "tagline": "공간에 가치를 더하다",
+    "description": "건축과 인테리어, 공간의 본질을 탐구하는 디자인 스튜디오"
+  },
+  "contact": {
+    "phone": "02-1234-5678",
+    "email": "contact@designstudio.kr",
+    "address": "서울특별시 강남구 테헤란로 123, 4층",
+    "kakao": "designstudio",
+    "instagram": "@design_studio_kr"
+  },
+  "categories": [
+    { "id": "all", "name": "ALL", "nameKr": "전체" },
+    { "id": "restaurant", "name": "RESTAURANT", "nameKr": "레스토랑" },
+    { "id": "cafe", "name": "CAFE", "nameKr": "카페" },
+    { "id": "office", "name": "OFFICE", "nameKr": "오피스" },
+    { "id": "hospital", "name": "HOSPITAL", "nameKr": "병원" },
+    { "id": "gym", "name": "GYM", "nameKr": "피트니스" },
+    { "id": "apt", "name": "APT", "nameKr": "주거공간" },
+    { "id": "showroom", "name": "SHOWROOM", "nameKr": "쇼룸" }
+  ],
+  "projects": [
+    {
+      "id": "project-001",
+      "title": "카페 블루밍",
+      "category": "cafe",
+      "location": "서울 성수동",
+      "area": "82㎡",
+      "year": "2024",
+      "thumbnail": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=80",
+        "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80",
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80"
+      ],
+      "description": "자연과 도시의 조화를 담은 카페 인테리어. 따뜻한 우드 톤과 풍부한 녹색 식물이 어우러져 도심 속 휴식 공간을 연출했습니다.",
+      "featured": true
+    },
+    {
+      "id": "project-002",
+      "title": "레스토랑 소울",
+      "category": "restaurant",
+      "location": "서울 청담동",
+      "area": "156㎡",
+      "year": "2024",
+      "thumbnail": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
+        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=80",
+        "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=80"
+      ],
+      "description": "모던한 감성과 클래식한 우아함이 공존하는 파인다이닝 레스토랑. 절제된 조명과 고급 소재로 특별한 식사 경험을 선사합니다.",
+      "featured": true
+    },
+    {
+      "id": "project-003",
+      "title": "오피스 넥스트",
+      "category": "office",
+      "location": "서울 강남구",
+      "area": "320㎡",
+      "year": "2024",
+      "thumbnail": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80",
+        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&q=80"
+      ],
+      "description": "창의성과 협업을 극대화하는 미래지향적 오피스 공간. 유연한 업무 환경과 충분한 휴식 공간을 조화롭게 설계했습니다.",
+      "featured": true
+    },
+    {
+      "id": "project-004",
+      "title": "피트니스 바디웍스",
+      "category": "gym",
+      "location": "서울 삼성동",
+      "area": "245㎡",
+      "year": "2023",
+      "thumbnail": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80",
+        "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200&q=80",
+        "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80"
+      ],
+      "description": "에너지와 집중력을 높이는 다이나믹한 피트니스 공간. 다크 톤의 세련된 인테리어와 최적의 동선 설계가 특징입니다.",
+      "featured": false
+    },
+    {
+      "id": "project-005",
+      "title": "힐링 클리닉",
+      "category": "hospital",
+      "location": "서울 서초구",
+      "area": "198㎡",
+      "year": "2023",
+      "thumbnail": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80",
+        "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80",
+        "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1200&q=80"
+      ],
+      "description": "환자의 마음까지 치유하는 따뜻한 의료 공간. 밝고 청결한 분위기 속에 편안함을 더했습니다.",
+      "featured": false
+    },
+    {
+      "id": "project-006",
+      "title": "아파트 리모델링",
+      "category": "apt",
+      "location": "서울 용산구",
+      "area": "132㎡",
+      "year": "2024",
+      "thumbnail": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80"
+      ],
+      "description": "가족의 라이프스타일을 담은 주거 공간 리모델링. 개방감과 수납 효율을 모두 만족시키는 설계입니다.",
+      "featured": true
+    },
+    {
+      "id": "project-007",
+      "title": "브랜드 쇼룸",
+      "category": "showroom",
+      "location": "서울 한남동",
+      "area": "176㎡",
+      "year": "2023",
+      "thumbnail": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80",
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=1200&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80"
+      ],
+      "description": "브랜드 아이덴티티를 공간으로 표현한 쇼룸 디자인. 제품이 주인공이 되는 갤러리형 전시 공간입니다.",
+      "featured": false
+    },
+    {
+      "id": "project-008",
+      "title": "카페 선셋",
+      "category": "cafe",
+      "location": "제주 서귀포",
+      "area": "95㎡",
+      "year": "2023",
+      "thumbnail": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1200&q=80",
+        "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=80",
+        "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1200&q=80"
+      ],
+      "description": "제주의 자연을 담은 오션뷰 카페. 탁 트인 전망과 자연 소재가 어우러진 힐링 공간입니다.",
+      "featured": false
+    }
+  ]
+}

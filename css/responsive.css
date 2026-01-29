@@ -1,0 +1,70 @@
+/* Responsive Styles */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: var(--text-4xl);
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    /* Hide on mobile */
+    .hide-mobile {
+        display: none !important;
+    }
+
+    /* Show on mobile */
+    .show-mobile {
+        display: block !important;
+    }
+
+    /* Stack columns */
+    .mobile-stack {
+        flex-direction: column;
+    }
+
+    /* Full width on mobile */
+    .mobile-full {
+        width: 100%;
+    }
+}
+
+/* Desktop only */
+@media (min-width: 769px) {
+    .hide-desktop {
+        display: none !important;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 1440px) {
+    :root {
+        --container-padding-lg: var(--space-16);
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .project-card:hover .project-card-image img {
+        transform: none;
+    }
+
+    .nav-link::after {
+        display: none;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
