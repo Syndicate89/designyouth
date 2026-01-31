@@ -79,7 +79,7 @@ function renderCategoryTabs() {
           aria-label="${category.nameKr} 카테고리"
         >
           ${imageHtml}
-          <span class="category-tab-text">${category.name}</span>
+          <span class="category-tab-text">${category.nameKr}</span>
         </button>
       `;
     }).join('');
