@@ -131,12 +131,14 @@
         gap: var(--space-8);
         background-color: var(--color-background);
         transform: translateX(100%);
-        transition: transform var(--transition-base);
+        visibility: hidden;
+        transition: transform var(--transition-base), visibility var(--transition-base);
         z-index: 999;
     }
 
     .nav.open {
         transform: translateX(0);
+        visibility: visible;
     }
 
     .nav-link {
