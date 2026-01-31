@@ -123,13 +123,15 @@
         top: var(--header-height-mobile);
         left: 0;
         right: 0;
-        bottom: 0;
+        height: calc(100vh - var(--header-height-mobile));
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: var(--space-8);
         background-color: var(--color-background);
         transform: translateX(100%);
         transition: transform var(--transition-base);
+        z-index: 999;
     }
 
     .nav.open {
@@ -203,8 +205,9 @@
 .category-tabs {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-2);
+    gap: var(--space-4);
     margin-bottom: var(--space-8);
+    justify-content: center;
 }
 
 .category-tab {
@@ -220,11 +223,61 @@
     transition: all var(--transition-fast);
 }
 
+/* 이미지가 있는 카테고리 탭 스타일 */
+.category-tab.has-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3);
+    border-radius: var(--radius-lg);
+    width: 100px;
+    overflow: hidden;
+}
+
+.category-tab-image {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    transition: transform var(--transition-base);
+}
+
+.category-tab.has-image:hover .category-tab-image {
+    transform: scale(1.1);
+}
+
+.category-tab-text {
+    font-size: var(--text-xs);
+    white-space: nowrap;
+}
+
 .category-tab:hover,
 .category-tab.active {
     color: var(--color-white);
     background-color: var(--color-primary);
     border-color: var(--color-primary);
+}
+
+.category-tab.has-image.active,
+.category-tab.has-image:hover {
+    box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 768px) {
+    .category-tabs {
+        gap: var(--space-2);
+    }
+
+    .category-tab.has-image {
+        width: 80px;
+        padding: var(--space-2);
+    }
+
+    .category-tab-image {
+        width: 48px;
+        height: 48px;
+    }
 }
 
 /* ========================================
